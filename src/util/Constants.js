@@ -68,14 +68,14 @@ exports.DefaultOptions = {
   /**
    * HTTP options
    * @typedef {Object} HTTPOptions
-   * @property {number} [version=7] API version to use
+   * @property {number} [version=6] API version to use
    * @property {string} [api='https://discord.com/api'] Base url of the API
    * @property {string} [cdn='https://cdn.discordapp.com'] Base url of the CDN
    * @property {string} [invite='https://discord.gg'] Base url of invites
    * @property {string} [template='https://discord.new'] Base url of templates
    */
   http: {
-    version: 8,
+    version: 6,
     api: 'https://discord.com/api',
     cdn: 'https://cdn.discordapp.com',
     invite: 'https://discord.gg',
